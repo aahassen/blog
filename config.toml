@@ -4,7 +4,7 @@ title = "Foyat Technology"
 theme = "netify"
 preserveTaxonomyNames = true
 paginate = 5
-disqusShortname = "yejoka.com"
+disqusShortname = "https-yejoka-com"
 googleAnalytics = ""
 pluralizeListTitles = false
 # Set the followings to true as part of your site SEO
