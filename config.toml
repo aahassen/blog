@@ -3,8 +3,8 @@ languageCode = "en-us"
 title = "Foyat Technology"
 theme = "netify"
 preserveTaxonomyNames = true
-paginate = 3
-disqusShortname = "shortname"
+paginate = 5
+disqusShortname = "yejoka.com"
 googleAnalytics = ""
 pluralizeListTitles = false
 # Set the followings to true as part of your site SEO
@@ -184,7 +184,7 @@ canonifyURLs = true
     qq             = "" # User ID Number
   instagram        = "example"
   tumblr           = ""
-  twitter          = "example"
+  twitter          = "ahassen"
   skype            = ""
   snapchat         = ""
   pinterest        = "example"
@@ -194,5 +194,5 @@ canonifyURLs = true
   orcid            = ""
   researchgate     = "example"
   # Email
-  email            = "example"
+  email            = "ahmedin.a.hassen@gmail.com"
 theme = "netify"
