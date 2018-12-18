@@ -1,5 +1,5 @@
 +++
-author = "Theme author"
+author = "Ahmedin Hassen"
 categories = ["Microservice"]
 tags = ["tutorial"]
 date = "2014-09-28"

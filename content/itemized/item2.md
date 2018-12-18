@@ -1,6 +1,6 @@
 +++
 type = "itemized"
-author = "George Jetson"
+author = "Ahmedin Hassen"
 date = "2017-06-22"
 title = "Angular UI"
 description = "Document Management System -UI"
@@ -9,7 +9,7 @@ featuredpath = ""
 featuredalt = ""
 categories = [""]
 linktitle = ""
-format = "Golang"
+format = "Java"
 link = "#"
 +++
 

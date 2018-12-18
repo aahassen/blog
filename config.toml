@@ -1,6 +1,6 @@
 baseurl = "/"
 languageCode = "en-us"
-title = "Hugo Future Imperfect"
+title = "Foyat Technology"
 theme = "netify"
 preserveTaxonomyNames = true
 paginate = 3
@@ -15,7 +15,7 @@ canonifyURLs = true
   # Sets the meta tag description
   description          = "HTML5 UP theme, Future Imperfect with some extra goodies, ported by Julio Pescador. Powered by Hugo"
   # Sets the navbarTitle that appears in the top left of the navigation bar
-  navbarTitle          = "Future Imperfect"
+  navbarTitle          = "FOYAT Technology"
   # Sets where "View More Posts" links
   viewMorePostLink     = "/blog/"
 
@@ -87,11 +87,11 @@ canonifyURLs = true
   # These are optional params related to the sidebar. They are recommended, but not
   # required for proper functionality. HTML is supported within the params.
 [params.intro]
-  header    = "Hugo Future Imperfect"
+  header    = "FOYAT TECHNOLOGY"
 
-  paragraph = "Another fine responsive site template by <a href=\"http://html5up.net\">HTML5 UP</a>. Ported by Julio Pescador with some extra goodies <i class='fa fa-hand-peace-o'></i>"
+  paragraph = "Teaching is the new learning.  <a href=\"http://html5up.net\">HTML5 UP</a>. Ported by Julio Pescador with some extra goodies <i class='fa fa-hand-peace-o'></i>"
 
-  about     = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent tellus lacus, auctor vehicula molestie quis, tempor quis velit. Quisque in quam ac leo efficitur vulputate. Phasellus ullamcorper aliquam sodales. Maecenas sit amet condimentum ipsum. Proin sit amet ligula elit. Mauris."
+  about     = " I am a proud dad and wanted to make my son proud to and thatis why i am here blogin... I am a java programmer. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent tellus lacus, auctor vehicula molestie quis, tempor quis velit. Quisque in quam ac leo efficitur vulputate. Phasellus ullamcorper aliquam sodales. Maecenas sit amet condimentum ipsum. Proin sit amet ligula elit. Mauris."
 
   # This appears at the top of the sidebar above params.intro.header.
   # A width of less than 100px is recommended from a design perspective.
@@ -129,13 +129,13 @@ canonifyURLs = true
   weight = 3
 
 [[menu.main]]
-  name = "Itemized"
+  name = "Projects"
   url = "/itemized/"
   identifier = "fa fa-list"
   weight = 4
 
 [[menu.main]]
-  name = "Categories"
+  name = "Source Code"
   url = "/categories/"
   identifier = "fa fa-sitemap"
   weight = 5
