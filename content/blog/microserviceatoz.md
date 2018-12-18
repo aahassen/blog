@@ -10,6 +10,7 @@ featuredpath = "date"
 linktitle = ""
 title = "Microservice"
 type = "post"
+comments = "true"
 
 +++
 
