@@ -2,6 +2,7 @@
 # different config blocks for different sections of your site.
 # For example, you can have one property to handle comment submission and
 # another one to handle posts.
+layout: default
 comments: true
   # (*) REQUIRED
   #
