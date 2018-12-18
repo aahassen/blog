@@ -1,4 +1,4 @@
-baseurl = "/"
+baseurl = "https://yejoka.com"
 languageCode = "en-us"
 title = "Foyat Technology"
 theme = "netify"

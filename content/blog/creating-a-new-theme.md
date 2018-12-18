@@ -330,7 +330,7 @@ Edit the file to add the theme, add a title for the site, and specify that all o
 ```
 $ vi config.toml
 theme = "zafta"
-baseurl = ""
+baseurl = "https://yejoka.com"
 languageCode = "en-us"
 title = "zafta - totally refreshing"
 MetaDataFormat = "toml"
