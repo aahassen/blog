@@ -35,6 +35,7 @@
 	body {
 		line-height: 1;
 		-webkit-text-size-adjust: none;
+		font-family: "Josefin Sans", sans-serif;
 	}
 
 	ol, ul {
@@ -55,9 +56,9 @@
 	}
 
 	header p {
-		font-family: "Raleway", Helvetica, sans-serif;
-		font-size: 0.7em;
-		font-weight: 400;
+		font-family:  sans-serif, "Raleway", Helvetica;
+		font-size: 0.9em;
+		font-weight: 500;
 		letter-spacing: 0.25em;
 		line-height: 2.5;
 		margin: -1em 1em 0;
@@ -96,7 +97,20 @@
 	}
 
 	body {
-		background: #f4f4f4;
+		
+		font-family: "Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+		font-size: 16px;
+		font-weight: 400;
+		line-height: 1.7;
+		color: rgba(0,0,0,.87);
+		 background-color: #fff;
+		-webkit-text-size-adjust: 100%;
+		-webkit-font-feature-settings: "kern" 1;
+		-o-font-feature-settings: "kern" 1;
+		font-feature-settings: "kern" 1;
+		-webkit-font-kerning: normal;
+		font-kerning: normal;
+		
 	}
 
 		body.is-loading *,
@@ -115,8 +129,8 @@
 /* Type */
 
 	body, input, select, textarea {
-		color: #333333;
-		font-family: "Source Sans Pro", Helvetica, sans-serif;
+		color: #030303;
+		font-family:  sans-serif, "Raleway", Helvetica;
 		font-size: 14pt;
 		font-weight: 400;
 		line-height: 1.75;
@@ -194,7 +208,7 @@
 	}
 
 	h1, h2, h3, h4, h5, h6 {
-		color: #3c3b3b;
+		color: #030303;
 		font-family: "Raleway", Helvetica, sans-serif;
 		font-weight: 800;
 		letter-spacing: 0.25em;
