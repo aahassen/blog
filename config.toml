@@ -13,7 +13,7 @@ canonifyURLs = true
 
 [params]
   # Sets the meta tag description
-  description          = "HTML5 UP theme, Future Imperfect with some extra goodies, ported by Julio Pescador. Powered by Hugo"
+  description          = "Ahmedin Hassen's blog. "
   # Sets the navbarTitle that appears in the top left of the navigation bar
   navbarTitle          = "FOYAT Technology"
   # Sets where "View More Posts" links
@@ -23,11 +23,11 @@ canonifyURLs = true
   # Sets navbarTitle to match the section of the website
   dynamicTitles        = true
   # Sets RSS icons to appear on the sidebar with the social media buttons
-  rssAppearAtTop       = true
-  rssAppearAtBottom    = true
+  rssAppearAtTop       = false
+  rssAppearAtBottom    = false
   # Sets Social Media icons to appear on the sidebar
   socialAppearAtTop    = true
-  socialAppearAtBottom = true
+  socialAppearAtBottom = false
   # Sets Categories to sort by number of posts instead of alphabetical
   categoriesByCount    = true
   # set to show or to hide categories in the sidebar
@@ -89,20 +89,20 @@ canonifyURLs = true
 [params.intro]
   header    = "FOYAT TECHNOLOGY"
 
-  paragraph = "Teaching is the new learning.  <a href=\"http://html5up.net\">HTML5 UP</a>. Ported by Julio Pescador with some extra goodies <i class='fa fa-hand-peace-o'></i>"
+  paragraph = "Teaching is the new learning."
 
-  about     = " I am a proud dad and wanted to make my son proud to and thatis why i am here blogin... I am a java programmer. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent tellus lacus, auctor vehicula molestie quis, tempor quis velit. Quisque in quam ac leo efficitur vulputate. Phasellus ullamcorper aliquam sodales. Maecenas sit amet condimentum ipsum. Proin sit amet ligula elit. Mauris."
+  about     = "Please read more about me  <a href=\"/contact\">here</a>"
 
   # This appears at the top of the sidebar above params.intro.header.
   # A width of less than 100px is recommended from a design perspective.
   [params.intro.pic]
     src       = "/img/main/logo.jpg"
     # Sets Image to be a cirlce
-    circle    = false
+    circle    = true
     # Sets Image to be Future Imperfect's hexagon
-    imperfect = true
+    imperfect = false
     width     = ""
-    alt       = "Hugo Future Imperfect"
+    alt       = "Ahmedin Hassen"
 
 [params.postAmount]
 # Sets the number of recent posts to show in the sidebar. The default value is 5.
@@ -120,79 +120,45 @@ canonifyURLs = true
   name = "About"
   url = "/about/"
   identifier = "fa fa-id-card-o"
-  weight = 2
+  weight = 6
 
 [[menu.main]]
   name = "Blog"
   url = "/blog/"
   identifier = "fa fa-newspaper-o"
-  weight = 3
+  weight = 2
 
 [[menu.main]]
   name = "Projects"
   url = "/itemized/"
   identifier = "fa fa-list"
-  weight = 4
+  weight = 3
 
 [[menu.main]]
   name = "Source Code"
   url = "/categories/"
   identifier = "fa fa-sitemap"
-  weight = 5
+  weight = 4
 
 [[menu.main]]
   name = "Contact"
   url = "/contact/"
   identifier = "fa fa-envelope-o"
-  weight = 6
+  weight = 5
 
 # Sets Social Media icons to appear and link to your account. Value should be your
 # username unless otherwise noted. These are the icons affected by socialAppearAtTop
 # and socialAppearAtBottom.
 [social]
   # Coding Communities
-  github           = "jpescador/netify"
-  gitlab           = ""
-  stackoverflow    = "" # User Number
-  bitbucket        = ""
-  jsfiddle         = ""
-  codepen          = ""
-  # Visual Art Communities
-  deviantart       = ""
-  flickr           = "example"
-  behance          = ""
-  dribbble         = ""
+  github           = "aahassen"
   # Publishing Communities
-  wordpress        = ""
-  medium           = ""
+  medium           = "ahmedin.a.hassen"
   # Professional/Business Oriented Communities
-  linkedin         = "example"
-  linkedin_company = "examplebusiness"
-  foursquare       = ""
-  xing             = ""
-  slideshare       = ""
+  linkedin         = "ahmedin-hassen-343b0325"
   # Social Networks
-  facebook         = "example"
-  googleplus       = ""
-  reddit           = "example"
-  quora            = ""
-  youtube          = ""
-  vimeo            = ""
-  whatsapp         = "" # WhatsApp Number
-    # WeChat and QQ need testing.
-    wechat         = ""
-    qq             = "" # User ID Number
-  instagram        = "example"
-  tumblr           = ""
-  twitter          = "ahassen"
-  skype            = ""
-  snapchat         = ""
-  pinterest        = "example"
-  telegram         = "example"
-  vine             = ""
-  googlescholar    = ""
-  orcid            = ""
-  researchgate     = "example"
+  facebook         = "ahmedin.a.hassen"
+  twitter          = "aayimer"
   # Email
   email            = "ahmedin.a.hassen@gmail.com"
 theme = "netify"
