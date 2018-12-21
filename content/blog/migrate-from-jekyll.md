@@ -8,8 +8,7 @@ featuredalt = ""
 featuredpath = ""
 linktitle = ""
 title = "Migrate to Hugo from Jekyll"
-type = "post"
-comments = "true"
+
 
 +++
 
