@@ -1,30 +1,39 @@
 +++
 author = "Ahmedin Hassen"
 categories = ["Overview"]
-date = "2014-04-02"
+date = "2018-12-12"
 description = ""
 featured = "pic02.jpg"
 featuredalt = "Pic 2"
 featuredpath = "date"
 linktitle = ""
-title = "(Hu)go Template Primer"
+title = "Sending SMS with JAVA [Spring boot]"
 type = "post"
-comments = "true"
 
 +++
 
-Hugo uses the excellent [go][] [html/template][gohtmltemplate] library for
-its template engine. It is an extremely lightweight engine that provides a very
-small amount of logic. In our experience that it is just the right amount of
-logic to be able to create a good static website. If you have used other
-template systems from different languages or frameworks you will find a lot of
-similarities in go templates.
+You have a use case that you want to send SMS message through you application, that is why you are here. So, in  this tutorial, we are going to build a microservice that will send SMS messages. We will use Spring Boot  and [Twilio](https://twilio.com)(They provide API to send SMS programatically).
 
-This document is a brief primer on using go templates. The [go docs][gohtmltemplate]
-provide more details.
+## First  create an account with Twilio
+Creating a [Twilio](https://twilio.com) account is very easy and quick. Twilio is a paid service but when you create an account the first time, they give you a free balance of $10 and you can send 100s of SMS messages with this free balance, so you wont have to pay them for testing/learning purpose. I have used their Java and Python client to send SMS programmatically. Its very simple and all you need is a few lines of code.
+<br>
+ Once you create the account, you need to create a project.
+![Twilio Create project](/img/twilio1.jpg)
 
-## Introduction to Go Templates
+ Note down you Account SID and Auth Code. 
+![Twilio Create project](/img/twilio-get-number.jpg)
+You need to get a number by clicking on  `Get Started`, then `Get Number` button. 
 
+![Twilio Create project](/img/twilio-auth-code.jpg)
+
+Alight, Our Twilio account is ready, let's build our Service. 
+
+## Building our Microservice using the Spring Boot.
+Spring Boot is a framework to build a spring based applications VERY quickly, you can bootstrap a spring based application within a matter of minutes, if not seconds, using Spring Boot. Spring Boot is the most popular  Framework for Building Microservices and REST APIs. <br>
+
+1. First we will create a Maven Project from eclipse, we will spring-bootify it by updating the `pom.xml`
+
+    {{ foo }}
 Go templates provide an extremely simple template language. It adheres to the
 belief that only the most basic of logic belongs in the template or view layer.
 One consequence of this simplicity is that go templates parse very quickly.

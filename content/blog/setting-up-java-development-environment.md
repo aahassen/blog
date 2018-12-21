@@ -43,6 +43,17 @@ Accessing a predefined variable "foo":
 
     {{ foo }}
 
+``` java
+//Your first hello world program.
+//Pr
+class HelloWorld {
+
+   public static void main(String[] args){
+
+        System.out.println("Teaching is The new learning!");
+   }
+} ```
+
 **Parameters are separated using spaces**
 
 Calling the add function with input of 1, 2:
