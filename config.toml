@@ -137,7 +137,7 @@ canonifyURLs = true
 [[menu.main]]
   name = "Source Code"
   url = "/categories/"
-  identifier = "fa fa-sitemap"
+  identifier = "fa fa-code"
   weight = 4
 
 [[menu.main]]

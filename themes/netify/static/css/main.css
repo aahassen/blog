@@ -35,7 +35,7 @@
 	body {
 		line-height: 1;
 		-webkit-text-size-adjust: none;
-		font-family: Roboto, sans-serif;
+		font-family: Arial, Helvetica, sans-serif;
 	}
 
 	ol, ul {
@@ -57,7 +57,7 @@
 
 	header p {
 		font-family:  sans-serif, "Raleway", Helvetica;
-		font-size: 0.9em;
+		font-size: 1.1em;
 		font-weight: 500;
 		letter-spacing: 0.25em;
 		line-height: 2.5;
@@ -98,11 +98,11 @@
 
 	body {
 		
-		font-family: "Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
-		font-size: 16px;
+		font-family: Arial, Helvetica, sans-serif;
+		font-size: 14px;
 		font-weight: 400;
-		line-height: 1.7;
-		color: rgba(0,0,0,.87);
+		line-height: 2.5;
+		color: rgba(0,0,0,0);
 		 background-color: #fff;
 		-webkit-text-size-adjust: 100%;
 		-webkit-font-feature-settings: "kern" 1;
@@ -130,10 +130,13 @@
 
 	body, input, select, textarea {
 		color: #030303;
-		font-family:  sans-serif, "Raleway", Helvetica;
+		font-family:  Arial, Helvetica, sans-serif;
 		font-size: 14pt;
-		font-weight: 400;
-		line-height: 1.75;
+		font-weight: 500;
+		line-height: 2.5;
+		letter-spacing: 0.1em
+		
+		
 	}
 
 		@media screen and (max-width: 1680px) {
@@ -183,19 +186,28 @@
 			-webkit-transition: color 0.2s ease;
 			-ms-transition: color 0.2s ease;
 			transition: color 0.2s ease;
+			color: #337ab7 !important;
 		}
 
 		a:hover {
 			border-bottom-color: transparent;
-			color: #2ebaae !important;
+			color: #337ab7 !important;
+		}
+	.social2 {
+			color: #337ab7 !important;
+			font-weight: 700;
+
+
 		}
 
+	
+
 			a:hover:before {
-				color: #2ebaae !important;
+				color: #337ab7 !important;
 			}
 
 	strong, b {
-		color: #333333;
+		color: #111111;
 		font-weight: 700;
 	}
 
