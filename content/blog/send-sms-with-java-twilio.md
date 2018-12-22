@@ -173,8 +173,8 @@ Hit the [POST][localhost:8080/sendSMS](localhost:8080/sendSMS) endpoint from pos
 Succefully recieved the SMS on on my phone.  
 ![sms-api Text Recieved](/img/sms-recieved.png)
 
-You can find the complete source code on the Github [here](https://github.com/aahassen/sms-api)
+You can find the full source code on Github [here](https://github.com/aahassen/sms-api)
 
-I hope that helps. 
+I hope this tutorial was helpful. Have questions or suggestions? Feel free to write a comment below. Thank you for reading! 
 
 

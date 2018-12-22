@@ -1,6 +1,6 @@
-baseurl = "http://javakia.com"
+baseurl = "https://javakia.com"
 languageCode = "en-us"
-title = "Foyat Technology"
+title = "JAVAKIA"
 theme = "netify"
 preserveTaxonomyNames = true
 paginate = 5
@@ -15,7 +15,7 @@ canonifyURLs = true
   # Sets the meta tag description
   description          = "Ahmedin Hassen's blog. "
   # Sets the navbarTitle that appears in the top left of the navigation bar
-  navbarTitle          = "FOYAT Technology"
+  navbarTitle          = "JAVAKIA"
   # Sets where "View More Posts" links
   viewMorePostLink     = "/blog/"
 
