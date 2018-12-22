@@ -1,6 +1,6 @@
 +++
-author = "Hugo author"
-categories = ["Hugo"]
+author = "Ahmedin Hassen"
+categories = ["Camel"]
 date = "2014-04-02"
 description = ""
 featured = "pic01.jpg"
@@ -9,7 +9,6 @@ featuredpath = "date"
 linktitle = ""
 title = "Getting Started with Hugo"
 type = "post"
-comments = "true"
 
 +++
 

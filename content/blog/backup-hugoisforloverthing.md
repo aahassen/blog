@@ -1,15 +1,14 @@
 +++
-author = "Ahmedin Hasse"
-categories = ["Spring Boot",  "Java", "Camel"]
-date = "2017-04-02"
+author = "Hugo author"
+categories = ["Camel"]
+date = "2014-04-02"
 description = ""
 featured = "pic01.jpg"
 featuredalt = "Pic 1"
 featuredpath = "date"
 linktitle = ""
-title = "Uploading files to AWS S3 with Spring Boot"
-type = "post"
-
+title = "Uploading File to AWS S3 using Apache Camel"
+type ="post"
 +++
 
 ## Step 1. Install Hugo
