@@ -82,13 +82,13 @@ By executing the above command maven has created a project called `hello-world` 
     mvn clean install
 ```
  The maven `install` command build the project and created a deployable `war` file inside the `target` directory. <br>
- - Deploy the hello-world.war to tomcat application server(_Enter your Tomcat Home Path_)
+ - Deploy the hello-world.war to tomcat application server(_Enter your Tomcat Home Path_)<br>
     ```cp target/hello-world.war your_tomcat_home/webapps```
 
  - Access your hello-world application from the web browser [http://localhost:8080/hello-world](http://localhost:8080/hello-world)
  ![Hello World web app](/img/hello-world-deployed.jpg)
 
 ## 6. Summary
-In tutorial, we have successfully  setup our Java Web Development Environment. We have installed JDK, Apache Maven, Eclipse IDE and Apache Tomcat Application Server. We have created a simple hello-world web application using `maven-archetype-webapp` to test our enviroment setup. And we have built our project using `maven clean install` command  and deployed our `hello-world.war` to Tomcat Application Server.
+In this tutorial, we have successfully  setup our Java Web Development Environment. We have installed JDK, Apache Maven, Eclipse IDE and Apache Tomcat Application Server. We have created a simple hello-world web application using `maven-archetype-webapp` to test our enviroment setup. And we have built our project using `maven clean install` command  and deployed our `hello-world.war` to Tomcat Application Server.
 
 I hope this tutorial was helpful for you. Have questions or suggestions? Feel free to write a comment below. Thank you for reading! 
