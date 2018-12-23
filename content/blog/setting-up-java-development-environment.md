@@ -56,7 +56,7 @@ _Note: Make sure that there are no spaces in the complete tomcat home path, thi
 - Set environment variable, CATALINA_HOME=PATH_TO_CATALINA(the directory where you extracted tomcat)
 - Start tomcat to verify the installation by executing %CATALINA_HOME%/bin/startup.bat
 - Allow a couple of minutes for tomcat to start up
-- Open [http://localhost:8080](http://localhost:8080/) verify tomcat is running<br>
+- Open [http://localhost:8080](http://localhost:8080/) to verify tomcat is running<br>
   _You can shutdown tomcat  using %CATALINAHOME%/bin/shutdown.bat_
 ## 5. Finally, lets test everything by Creating a `Hello World` web app.
 - Create a very simple `Hello World` web application to test our installation.
