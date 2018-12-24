@@ -2,7 +2,7 @@
 type = "itemized"
 author = "Ahmedin Hassen"
 date = "2017-06-22"
-title = "Fancy App 1"
+title = "User Service"
 description = "Application for doing cool things."
 featured = ""
 featuredpath = ""
