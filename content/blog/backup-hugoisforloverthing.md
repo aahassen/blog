@@ -8,7 +8,7 @@ featuredalt = "Pic 1"
 featuredpath = "date"
 linktitle = ""
 title = "Uploading File to AWS S3 using Apache Camel"
-type ="post"
+type ="xxx"
 +++
 
 ## Step 1. Install Hugo

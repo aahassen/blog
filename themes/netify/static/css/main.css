@@ -432,9 +432,9 @@
 		input[type="submit"]:hover,
 		input[type="reset"]:hover,
 		input[type="button"]:hover,
-		.button:hover {
-			border: solid 1px #2ebaae;
-			color: #2ebaae !important;
+		.button{
+			border: solid 1px #337ab7;
+			color: #337ab7 !important;
 		}
 
 			input[type="submit"]:hover:active,
@@ -599,7 +599,7 @@
 			-webkit-transition:border-color 0.3s ease-in-out;
 			-moz-transition:border-color 0.3s ease-in-out;
 			transition:border-color 0.3s ease-in-out;
-			border-color: #2ebaae;
+			border-color: #337ab7;
 		}
 
 		input[type="text"]:focus,

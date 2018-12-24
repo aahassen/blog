@@ -1,6 +1,6 @@
 +++
 author = "Ahmedin Hassen"
-categories = ["SpringBoot"]
+categories = ["Spring Boot"]
 date = "2018-12-12"
 description = ""
 featured = "pic02.jpg"
@@ -167,7 +167,7 @@ Or you can run the project from eclipse itself... Right Click-->`Run As` ->`Java
 ![sms-api screenshot](/img/sms-api-terminal.jpg)
 
 
-Hit the [POST][localhost:8080/sendSMS](localhost:8080/sendSMS) endpoint from postman. 
+Hit the [POST][http://localhost:8080/sendSMS](http://localhost:8080/sendSMS) endpoint from postman. 
 ![sms-api screenshot](/img/sms-api-post-man.png)
 
 Succefully recieved the SMS on on my phone.  

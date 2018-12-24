@@ -89,9 +89,9 @@ canonifyURLs = true
 [params.intro]
   header    = ""
 
-  paragraph = "Teaching is the new learning."
+  paragraph = "Teaching Is The New Learning."
 
-  about     = "Please read more about me  <a href=\"/contact\">here</a>"
+  about     = "Please read more about me here"
 
   # This appears at the top of the sidebar above params.intro.header.
   # A width of less than 100px is recommended from a design perspective.
@@ -130,14 +130,14 @@ canonifyURLs = true
 
 [[menu.main]]
   name = "Projects"
-  url = "/itemized/"
+  url = "/projects/"
   identifier = "fa fa-list"
   weight = 3
 
 [[menu.main]]
-  name = "Source Code"
+  name = "Categories"
   url = "/categories/"
-  identifier = "fa fa-code"
+  identifier = "fa fa-sitemap"
   weight = 4
 
 [[menu.main]]
