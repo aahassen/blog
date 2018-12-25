@@ -14,6 +14,13 @@ link = "#"
 +++
 
 ## Orchestraton Service 
+
+Creating the UI
+``` ng new DMS-UI
+    cd DMS-UI
+    ng serve
+    access localhost:4200
+```
 This service will take all requests from the UI and will consume other sevices as needed. This service will serve as a middleman between the UI and the rest of microservices we are going to build. 
 We are going to use spring-boot to build our services. Here is the complete source code from github 
 
