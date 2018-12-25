@@ -15,7 +15,10 @@ type = "post"
 
 ## Introduction Microservice. 
 
-In this tutorial I will show you how to create MicroServices using Spring Boot Framework and the best way to learn microservices is creating them, for that we are going to build a simple Document Management System using Microservice architecture. The Document Management System will enable us to upload a document(*.pdf, *.doc, *.txt... etc, even *.zip), search  document(search by content), update a document and delete a document(s).  This is what the UI will look like at the end ##insertScreenShot##  But, before we deep dive into building the Document Management System(DMS), lets understand what Microservice is, and why it is good and how do we build one.
+In this tutorial I will show you how to create MicroServices using Spring Boot Framework and the best way to learn microservices is creating them, for that we are going to build a simple Document Management System using Microservice architecture. The Document Management System will enable us to upload a document(*.pdf, *.doc, *.txt... etc, even *.zip), search  document(search by content), update a document and delete a document(s).  This is what the UI will look like at the end.
+ But, before we deep dive into building the Document Management System(DMS), lets understand what Microservice is, and why it is good and how do we build one.
+![DMS UI](/img/dms-ui.jpg)
+
 
 Microservices is an architectural style/approach followed while building a complex software applications. In Microservices-based architecture, instead of building, packaging and deploying a complex enterpise applicatioin as a single deployable artifact, we decompose the complex application into one or more smaller independent services/components. We build, test and deploy each services independenently without one knowing the existance of the other. During runtime these smaller services colabrote/compose together inorder to make up the complex software application through someform of service communication medias(api call, json, jms etc...)
 
