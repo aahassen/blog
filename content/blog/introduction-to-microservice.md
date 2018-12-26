@@ -1,9 +1,9 @@
 +++
 author = "Ahmedin Hassen"
-categories = ["Microservice"]
-tags = ["Java Tutorial", "MicroService", "Software", "Architectural Style", "Cloud native"]
+categories = ["Microservice", "Spring Boot", "Java"]
+tags = ["MicroService"]
 date = "2018-12-09"
-description = "Full Document management application build using microservice architectural style."
+description = "A Simple Document management application build using microservice architectural style."
 featured = "pic03.jpg"
 featuredalt = "Pic 3"
 featuredpath = "date"
@@ -15,28 +15,26 @@ type = "post"
 
 ## Introduction Microservice. 
 
-In this tutorial I will show you how to create MicroServices using Spring Boot Framework and the best way to learn microservices is creating them, for that we are going to build a simple Document Management System using Microservice architecture. The Document Management System will enable us to upload a document(*.pdf, *.doc, *.txt... etc, even *.zip), search  document(search by content), update a document and delete a document(s).  This is what the UI will look like at the end.
+In this tutorial we are going to learn how to create MicroServices using Spring Boot Framework. An effective way to learn microservices is creating them, for that we are going to build a simple Document Management System using Microservices architecture. This Document Management System has the following functionalities; upload a document(*.pdf, *.doc, *.txt... etc, even *.zip), get list of documents , update a document and delete a document(s). Basically we will be able to do CRUD operations on documents and we will be storing the docs/files on **AWS S3** bucket and storing document metadata associated with the file on **MYSQL** database.
+  This is what the UI will look like at the end.
+  <br>
+  ![DMS UI](/img/dms-ui.jpg)
  But, before we deep dive into building the Document Management System(DMS), lets understand what Microservice is, and why it is good and how do we build one.
-![DMS UI](/img/dms-ui.jpg)
 
 
-Microservices is an architectural style/approach followed while building a complex software applications. In Microservices-based architecture, instead of building, packaging and deploying a complex enterpise applicatioin as a single deployable artifact, we decompose the complex application into one or more smaller independent services/components. We build, test and deploy each services independenently without one knowing the existance of the other. During runtime these smaller services colabrote/compose together inorder to make up the complex software application through someform of service communication medias(api call, json, jms etc...)
 
+**Microservices** is an architectural style/approach followed while building a complex software applications. In Microservices-based architecture, instead of **building**, **packaging** and **deploying** a complex enterprise application as a single deployable artifact(**\*.war**, **\*.ear**, ...etc), we decompose(break down) the complex application into one or more smaller **independent** services and we **build**, **package**, **test** and **deploy** them independently without one knowing the existence of the other, during runtime these smaller services **collaborate/compose** together to make up the complex software application.
 
-In monolethic architectural style you build, package and deploy your enterprise application a single deployable artifact(jar, war or ear). In monolethic base application code is packaged into a single archive and is  stored in a single directory.
+**So what are the advantages Microservices?** Well, Microservices architectural style offers a lot of advantage over the monolithic architecture(_where the complex enterprise application is built, packaged and deployed as single archive._). <br>
+The followings are some the advantages of Microservices: 
 
+1. _**Flexiblity**_: Microservices gives the flexibility to scale only those services where scale. Build, test, package and deploy each services independently and can use different frameworks(or even different languages to build them). Microservices gives us the flexibility to rollback only those features that have failed, in monolithic applications we would have to rollback the entire application even though the failure is in a single feature.  
 
-So what is the benefits of decomposing  down the big complex software application? Well, the Microservices architectural style offers handful of benefits over the monolethic stlye where the complex enterprise application is build, packaged and deployed as single archive.
+2. _**Do it well(lesser chances for errors)**_: A Microservice has a small(But, _**Small is Beautiful**_, right?) **scope/feature** as such there are lesser chances that something can go wrong, because smaller means less complex and less complex means easy to understand, isnt't it?. But, hey! anything can go wrong in this world... but you get my point here.<br>
+Note that when we say small, it is not perfectly perfect to say that the codebase is also smaller.
+3. **Reusability**: Since each components are independent and focused on implementing a single feature this same feature can be used in other applications.
 
-1. Flexiblity: Build, test, package and deploy each services independenctly and can use different frameworks(or even languages to build them)
-2. Do it well: A single microservice a small feature or functionality. a single microservice has smaller scope but it does it very well.
-3. Lesser chance of error: Since a single microservices is focusing on smaller scope and well defined one there is less chance that something can go wrong... (but, hey!, remember anything can go wrong in this world... but you get the point..)
-4. Encourage upgrade: companys are afraid of touching there mission critical application once it is deployed in production because they are afraid of something can go wrong during deployemenemt or some tested code can be deployed... But, in microservices, CI/CD can be automated(with automation testing) and more than that a single services can be upgraded/deployed independently... while rest of the appliation still serving the customer...etc... it is okay if the amazon "Recommendation" service is not available as song as I can do everything else... in the monetich architecture the entire site will be down for the new deployment eventhoug hte change is in Remcommendation service... same thing goes for the Facebook 'notification' future...
-5. Reusablity
-6. ==Agile friendly==: imaging you have 25 developers all working on one enterpirse software system... imagine how difficult will be the stand up(while it supposed to be a 15 minutes meeting while everytone is anwsering the three questions..)... the meeting would have been turned into noices... there should be no more 4 to 5 people in a team in my opinion... So, in microservices you break the complex system into multiple smaller services and a team would just focus on building, testing deploying that single services without even worying who will be consuming the user of the service they are working...
+4. **Good For Agile Development**: Imagine you have 25 developers all working on an enterprise application, imagine how noisy the daily stand up would be( where each developers supposed to give their status: what did you do yesterday?,  What will you be working on today? and do you have any impediments? ), the collaboration among all these 25 developers who have been very difficult. There should be no more 4 to 5 people working really closely in day-to-day basis. In Microservices-based architecture you break the complex application into multiple smaller services  and each team would just focus on building, testing deploying each services independently. Each team will have agreements(a well defined contracts depicting how to consume each service and what output each service give back..etc.) The contracts/agreements are usually documented using frameworks like Swagger. 
 
-So how do these team communicate together inorder to make sure that all these teams are working on a sigle goals... making complex sysetm up... where is the checkpoint... how does team 1 knows they building something what its consumer think they will get?
-The answer is they will have an agreed upon sort of contract... a well defined documentation(swagger)... explaining this is what my service will give it to you if you communicate with it in this way(giving this and that informtion...)
-
-I hope you have learned something new! <button name="button" onclick="/projects" class="button">Now Let's build our DMS using Microservices</button>
+I hope you have learned something new! <button name="button" link="projects" class="button">Now Let's build our DMS using Microservices</button>
 
