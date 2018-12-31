@@ -1,6 +1,6 @@
 +++
 author = "Hugo author"
-categories = ["Camel"]
+categories = ["Apache Camel"]
 date = "2014-04-02"
 description = ""
 featured = "pic01.jpg"
