@@ -92,7 +92,6 @@ public class CamelFileUploadApplication {
 }
 
 ```
-
 Next, let's create the camel route, this route will upload a file from the `from ` endpoint defined in the `application.properties` to AWS S3 bucket(this bucket name must also be defined in the `application.properties` file).
 
 Create a class `AWSS3Route.java` and replace the content with this.
